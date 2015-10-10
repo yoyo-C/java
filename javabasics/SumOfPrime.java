@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 
 
@@ -31,5 +32,6 @@ public class SumOfPrime {
 		    	}
 			}
 		}
+		in.close();
 	}
 }

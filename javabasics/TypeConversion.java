@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 
 
@@ -10,6 +11,7 @@ public class TypeConversion {
 		F = in.nextInt();
 		C = (int)((F-32)*5/9);
 		System.out.println(C);
+		 in.close();
 	}
 
 }

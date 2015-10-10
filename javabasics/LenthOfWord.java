@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 
 
@@ -13,5 +14,6 @@ public class LenthOfWord {
 			word = in.next();
 		}
 		System.out.print(word.length() - 1); 
+		in.close();
 	 } 
 }

@@ -1,4 +1,4 @@
-package Fraction;
+package javabasics;
 
 public class Fraction {
 

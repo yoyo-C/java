@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 
 
@@ -21,6 +22,7 @@ public class TranslateTimeFromBJTToUTC {
 		else{
 			System.out.println("0"+UTC);
 		}
+		 in.close();
 	}
 
 }

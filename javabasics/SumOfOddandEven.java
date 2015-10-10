@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 
 
@@ -22,6 +23,7 @@ public class SumOfOddandEven {
 			}
 		}
 		System.out.println(numOfEven+" "+ numOfOdd);	
+		 in.close();
 	}
 
 }

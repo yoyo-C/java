@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 
 public class GPSDataProcess {
@@ -39,5 +40,6 @@ public class GPSDataProcess {
             sentence = in.nextLine();
         }
         System.out.print(timeTransfer(h) + ":" + timeTransfer(m) + ":" + timeTransfer(s));
+        in.close();
     }
 }

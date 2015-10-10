@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 
 
@@ -32,7 +33,7 @@ public class PolynomialFactors {
 					System.out.print("+"+amount[max]);
 				}
 			}
-		}  
-	}
+		}  in.close();
+	} 
 
 }

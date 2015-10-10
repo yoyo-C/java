@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 public class PrimeFactors {	
 	public static void primeFactors(int product, int minFactor, int[] resultSetOfPrimeFactors, int index){
@@ -22,6 +23,7 @@ public class PrimeFactors {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int input = in.nextInt();
+        in.close();
         int[] resultSetOfPrimeFactors = new int[20];
         primeFactors(input,2,resultSetOfPrimeFactors,0);
         System.out.print(input+"="+ resultSetOfPrimeFactors[0]);
@@ -32,6 +34,7 @@ public class PrimeFactors {
         	else{
         		System.out.print("x"+resultSetOfPrimeFactors[i]);
         	}
-        }       
+        }
+              
     }
 }

@@ -1,4 +1,4 @@
-package Fraction;
+package javabasics;
 
 import java.util.Scanner;
 public class Main {

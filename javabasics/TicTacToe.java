@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 public class TicTacToe {
 	public static void main(String[] args) {
@@ -40,5 +41,6 @@ public class TicTacToe {
 		else{
 			System.out.print("NIL");
 		}
+		in.close();
 	}
 }

@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 public class PrintOutPositiveIntegers {
 	public static void main(String[] args) {
@@ -24,7 +25,8 @@ public class PrintOutPositiveIntegers {
 			if (i < lngth - 1){
 				System.out.print(" ");
 			}
-		}	
+		}
+		 in.close();
 	}
 
 }

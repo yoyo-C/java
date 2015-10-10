@@ -1,3 +1,4 @@
+package javabasics;
 import java.util.Scanner;
 public class PerfectNumber {	
 	public static boolean isPerfect(int num){
@@ -16,6 +17,7 @@ public class PerfectNumber {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int m = in.nextInt();
+        in.close();
         int index = 0;
         int[] resultSetOfPerfectNum = new int[1000];
         for (int i = n; i <= m; i++){
@@ -39,7 +41,8 @@ public class PerfectNumber {
         		else{
         			System.out.print(" " + resultSetOfPerfectNum[i]);
         		}
-        	}
+        	}      	
         }
+   
     }
 }
