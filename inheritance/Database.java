@@ -26,6 +26,7 @@ public class Database {
 		db.add(new DVD("少年派","李安",120, "豆瓣：8.7",false));
 		db.add(new Mp3("you raise me up", 3, false, "classic song", "westlife", "face to face"));
 		db.add(new Mp3("Trouble is a friend",4, true,"soft","lenka","lenka"));
+		db.add(new VideoGame("Trouble is a friend",4, true,"soft", 100));
 		db.list();
 	}
 
