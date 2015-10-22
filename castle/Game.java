@@ -99,8 +99,8 @@ public class Game {
 //    		} else if ( words[0].equals("bye") ) {
 //    			break;
 //    		}
-    		in.close();
-		}
+    		
+		}in.close();
 	}
     
 	public static void main(String[] args) {
